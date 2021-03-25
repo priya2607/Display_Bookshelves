@@ -1,4 +1,4 @@
-package com.Hackatone.utils;
+package com.Hackathon.utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;

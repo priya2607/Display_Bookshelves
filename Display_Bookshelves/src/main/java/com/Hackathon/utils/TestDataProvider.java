@@ -1,4 +1,4 @@
-package com.Hackatone.utils;
+package com.Hackathon.utils;
 import org.testng.annotations.DataProvider;
 
 public class TestDataProvider 

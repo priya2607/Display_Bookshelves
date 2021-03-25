@@ -1,13 +1,13 @@
-package com.Hackatone.TestClasses;
+package com.Hackathon.TestClasses;
 import java.io.IOException;
 import java.util.List;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-import com.Hackatone.Base.BaseUI;
-import com.Hackatone.output.ShowOutputInConsole;
-import com.Hackatone.output.ShowOutputInExcel;
+import com.Hackathon.Base.BaseUI;
+import com.Hackathon.output.ShowOutputInConsole;
+import com.Hackathon.output.ShowOutputInExcel;
 
 public class GetHomeItems extends BaseUI 
 {

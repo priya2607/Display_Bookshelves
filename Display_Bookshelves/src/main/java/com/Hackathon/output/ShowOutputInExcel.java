@@ -1,4 +1,4 @@
-package com.Hackatone.output;
+package com.Hackathon.output;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.Hackatone.utils;
+package com.Hackathon.utils;
 
 import java.util.Date;
 

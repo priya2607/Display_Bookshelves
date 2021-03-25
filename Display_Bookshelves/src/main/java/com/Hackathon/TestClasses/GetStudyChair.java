@@ -1,13 +1,13 @@
-package com.Hackatone.TestClasses;
+package com.Hackathon.TestClasses;
 import java.util.List;
 
-import com.Hackatone.Base.*;
+import com.Hackathon.Base.*;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.Hackatone.output.ShowOutputInConsole;
-import com.Hackatone.output.ShowOutputInExcel;
+import com.Hackathon.output.ShowOutputInConsole;
+import com.Hackathon.output.ShowOutputInExcel;
 public class GetStudyChair extends BaseUI
 {
 	@Test

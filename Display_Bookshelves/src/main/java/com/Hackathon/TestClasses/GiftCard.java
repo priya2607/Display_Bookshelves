@@ -1,4 +1,4 @@
-package com.Hackatone.TestClasses;
+package com.Hackathon.TestClasses;
 import java.util.concurrent.TimeUnit;
 
 //import org.openqa.selenium.Alert;
@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 //import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.Hackatone.Base.*;
+import com.Hackathon.Base.*;
 
 public class GiftCard extends BaseUI
 {

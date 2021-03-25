@@ -1,4 +1,4 @@
-package com.Hackatone.Base;
+package com.Hackathon.Base;
 
 
 import java.io.File;
@@ -31,7 +31,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.asserts.SoftAssert;
 
-import com.Hackatone.utils.ExtentReportManager;
+import com.Hackathon.utils.ExtentReportManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -371,7 +371,7 @@ public class BaseUI {
 		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
 		//Thread.sleep(2000);
 		File sourceFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
-		String capture_img = com.Hackatone.utils.DateUtils.getTimeStamp();
+		String capture_img = com.Hackathon.utils.DateUtils.getTimeStamp();
 		File destFile = new File(System.getProperty("user.dir") + "//ScreenShot//" + capture_img + ".png");
 
 		try {
