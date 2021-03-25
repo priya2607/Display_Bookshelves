@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="exicuteTestCases(failed)">
+    <classes>
+      <class name="com.Hackatone.TestClasses.GetBookshelves">
+        <methods>
+          <include name="testOneForBookshelves"/>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.Hackatone.TestClasses.GetBookshelves -->
+      <class name="com.Hackatone.TestClasses.GetHomeItems">
+        <methods>
+          <include name="getHomeListItems_two"/>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+          <include name="getHomeListItems_one"/>
+        </methods>
+      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
+      <class name="com.Hackatone.TestClasses.GiftCard">
+        <methods>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+          <include name="testForGiftCards" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
+      <class name="com.Hackatone.TestClasses.GetStudyChair">
+        <methods>
+          <include name="endReport"/>
+          <include name="testForStudyChairs"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.Hackatone.TestClasses.GetStudyChair -->
+    </classes>
+  </test> <!-- exicuteTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
