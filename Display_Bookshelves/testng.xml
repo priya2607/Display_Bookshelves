@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="1" name="exicuteTestCases">
     <packages>
-    	<package name="com.Hackatone.TestClasses" />
+    	<package name="com.Hackathon.TestClasses" />
     </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
